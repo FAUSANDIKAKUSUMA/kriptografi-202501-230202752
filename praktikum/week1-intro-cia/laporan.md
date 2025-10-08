@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 1  
-Topik: Sejarah Kriptografi & Prinsip CIA
-Nama: Fausan Dika Kusuma  
-NIM: 230202752 
-Kelas: 5IKRB  
+    Minggu ke-: 1  
+    Topik: Sejarah Kriptografi & Prinsip CIA
+    Nama: Fausan Dika Kusuma  
+    NIM: 230202752     
+    Kelas: 5IKRB  
 
 ---
 
