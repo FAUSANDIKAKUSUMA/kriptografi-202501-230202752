@@ -23,6 +23,10 @@ Caesar Cipher, yang menggantikan setiap huruf dengan huruf lain yang berjarak te
 Vigenère Cipher, yang menggunakan kata kunci untuk menentukan pergeseran huruf, sehingga lebih sulit dipecahkan.
 Playfair Cipher, yang menyandikan pasangan huruf sekaligus untuk meningkatkan keamanan.
 Kriptografi klasik umumnya hanya mengandalkan manipulasi huruf dan simbol tanpa melibatkan matematika kompleks. Namun, dengan kemajuan teknologi dan kemampuan komputasi, cipher klasik menjadi mudah dipecahkan menggunakan analisis frekuensi. Meskipun demikian, era ini menjadi fondasi penting bagi perkembangan kriptografi modern.
+Perkembangan Kriptografi Modern (RSA)
+Kriptografi modern muncul seiring kemajuan komputer dan matematika, ditandai dengan penggunaan algoritma berbasis kunci publik dan privat. Salah satu algoritma paling berpengaruh adalah RSA (Rivest–Shamir–Adleman) yang ditemukan pada tahun 1977. RSA menggunakan prinsip faktorisasi bilangan prima besar untuk mengenkripsi dan mendekripsi pesan. Sistem ini memungkinkan komunikasi aman tanpa perlu bertukar kunci rahasia secara langsung. Kriptografi modern juga mendukung keamanan digital seperti tanda tangan digital, enkripsi data, dan sertifikat digital.
+Evolusi Menuju Kriptografi Kontemporer (Cryptocurrency)
+Era kriptografi kontemporer ditandai dengan penerapan kriptografi dalam teknologi blockchain dan cryptocurrency seperti Bitcoin dan Ethereum. Sistem ini memanfaatkan algoritma hashing (SHA-256), tanda tangan digital, dan kriptografi asimetris untuk menjamin keamanan transaksi, integritas data, serta otentikasi pengguna tanpa memerlukan otoritas pusat. Kriptografi dalam cryptocurrency berperan penting untuk membangun kepercayaan terdistribusi dan transparansi, menjadikannya fondasi utama bagi sistem keuangan digital masa kini.
 
 ---
 
