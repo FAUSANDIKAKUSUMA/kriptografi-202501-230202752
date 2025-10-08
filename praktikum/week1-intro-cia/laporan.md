@@ -8,7 +8,10 @@
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern. 
+Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar. 
+Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern. 
+Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ---
 
