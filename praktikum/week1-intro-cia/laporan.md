@@ -16,8 +16,13 @@ Menyiapkan repositori GitHub sebagai media kerja praktikum.
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Ringkasan Era Kriptografi Klasik (Cipher)
+Era kriptografi klasik merupakan masa awal perkembangan kriptografi yang berfokus pada teknik penyandian pesan menggunakan metode sederhana berbasis substitusi dan transposisi huruf. Tujuan utamanya adalah menyembunyikan isi pesan agar hanya pihak yang mengetahui kunci dapat membacanya.
+Beberapa metode terkenal dalam era ini antara lain:
+Caesar Cipher, yang menggantikan setiap huruf dengan huruf lain yang berjarak tetap dalam alfabet.
+Vigenère Cipher, yang menggunakan kata kunci untuk menentukan pergeseran huruf, sehingga lebih sulit dipecahkan.
+Playfair Cipher, yang menyandikan pasangan huruf sekaligus untuk meningkatkan keamanan.
+Kriptografi klasik umumnya hanya mengandalkan manipulasi huruf dan simbol tanpa melibatkan matematika kompleks. Namun, dengan kemajuan teknologi dan kemampuan komputasi, cipher klasik menjadi mudah dipecahkan menggunakan analisis frekuensi. Meskipun demikian, era ini menjadi fondasi penting bagi perkembangan kriptografi modern.
 
 ---
 
