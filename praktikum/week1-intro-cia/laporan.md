@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik:   
+Minggu ke-: 1  
+Topik: Sejarah Kriptografi & Prinsip CIA
 Nama: Fausan Dika Kusuma  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+NIM: 230202752 
+Kelas: 5IKRB  
 
 ---
 
