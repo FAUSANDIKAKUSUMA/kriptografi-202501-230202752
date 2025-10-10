@@ -77,8 +77,21 @@ Hasil eksekusi program Caesar Cipher:
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
+- Pertanyaan 1: Tokoh yang sering dianggap sebagai bapak kriptografi modern adalah Whitfield Diffie dan Martin Hellman.
+Mereka memperkenalkan konsep kriptografi kunci publik (public-key cryptography) pada tahun 1976 melalui makalah berjudul “New Directions in Cryptography”.
+Penemuan ini menjadi dasar bagi sistem keamanan digital modern seperti SSL, PGP, dan berbagai sistem enkripsi di internet. 
+- Pertanyaan 2:
+  RSA (Rivest–Shamir–Adleman)**
+    Digunakan untuk enkripsi dan tanda tangan digital.
+  
+  ECC (Elliptic Curve Cryptography)
+    Lebih efisien daripada RSA dengan ukuran kunci yang lebih kecil.
+  
+  Diffie–Hellman Key Exchange
+    Digunakan untuk pertukaran kunci rahasia secara aman.
+  
+  ElGamal
+    Sering digunakan untuk enkripsi dan sistem tanda tangan digital.
 )
 ---
 
