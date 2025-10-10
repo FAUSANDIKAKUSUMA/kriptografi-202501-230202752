@@ -92,6 +92,10 @@ Penemuan ini menjadi dasar bagi sistem keamanan digital modern seperti SSL, PGP,
   
   ElGamal
     Sering digunakan untuk enkripsi dan sistem tanda tangan digital.
+  -Pertanyaan 3:
+  Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada metode           enkripsi, jenis kunci, dan dasar keamanannya.
+  Kriptografi klasik menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi          (bersifat simetris). Metode yang digunakan biasanya berupa substitusi atau transposisi huruf    pada teks alfabet. Keamanan sistem klasik ini relatif lemah karena dapat dipecahkan melalui     analisis frekuensi atau percobaan manual.
+  Sementara itu, kriptografi modern menggunakan dua kunci yang berbeda, yaitu kunci publik dan    kunci privat (bersifat asimetris). Sistem ini didasarkan pada teori matematika yang kompleks    seperti faktorisasi bilangan prima, logaritma diskret, dan kurva eliptik. Kriptografi modern    lebih aman dan digunakan untuk melindungi data digital dalam komunikasi dan transaksi           elektronik di era teknologi saat ini.
 )
 ---
 
