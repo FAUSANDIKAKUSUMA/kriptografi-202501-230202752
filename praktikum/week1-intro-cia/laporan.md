@@ -1,21 +1,24 @@
 # Laporan Praktikum Kriptografi
-    Minggu ke-: 1  
+
+    Minggu ke-: 1
     Topik: Sejarah Kriptografi & Prinsip CIA
-    Nama: Fausan Dika Kusuma  
-    NIM: 230202752     
-    Kelas: 5IKRB  
+    Nama: Fausan Dika Kusuma
+    NIM: 230202752
+    Kelas: 5IKRB
 
 ---
 
 ## 1. Tujuan
-Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern. 
-Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar. 
-Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern. 
+
+Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern.
+Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar.
+Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern.
 Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ---
 
 ## 2. Dasar Teori
+
 Ringkasan Era Kriptografi Klasik (Cipher)
 Era kriptografi klasik merupakan masa awal perkembangan kriptografi yang berfokus pada teknik penyandian pesan menggunakan metode sederhana berbasis substitusi dan transposisi huruf. Tujuan utamanya adalah menyembunyikan isi pesan agar hanya pihak yang mengetahui kunci dapat membacanya.
 Beberapa metode terkenal dalam era ini antara lain:
@@ -31,16 +34,20 @@ Era kriptografi kontemporer ditandai dengan penerapan kriptografi dalam teknolog
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+
+(- Python 3.x
+
+- Visual Studio Code / editor lain
+- Git dan akun GitHub
+- Library tambahan (misalnya pycryptodome, jika diperlukan) )
 
 ---
 
 ## 4. Langkah Percobaan
+
 (Tuliskan langkah yang dilakukan sesuai instruksi.  
 Contoh format:
+
 1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
@@ -48,6 +55,7 @@ Contoh format:
 ---
 
 ## 5. Source Code
+
 (Salin kode program utama yang dibuat atau dimodifikasi.  
 Gunakan blok kode:
 
@@ -56,65 +64,71 @@ Gunakan blok kode:
 def encrypt(text, key):
     return ...
 ```
+
 )
 
 ---
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
+(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
+- Berikan tabel atau ringkasan hasil uji jika diperlukan.
+- Jelaskan apakah hasil sesuai ekspektasi.
+- Bahas error (jika ada) dan solusinya.
+
+Hasil Repo:
+
+![Hasil Repo](screenshots/sekrinsut.png)
 )
 
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
+
+(Jawab pertanyaan diskusi yang diberikan pada modul.
+
 - Pertanyaan 1: Tokoh yang sering dianggap sebagai bapak kriptografi modern adalah Whitfield Diffie dan Martin Hellman.
-Mereka memperkenalkan konsep kriptografi kunci publik (public-key cryptography) pada tahun 1976 melalui makalah berjudul “New Directions in Cryptography”.
-Penemuan ini menjadi dasar bagi sistem keamanan digital modern seperti SSL, PGP, dan berbagai sistem enkripsi di internet. 
+  Mereka memperkenalkan konsep kriptografi kunci publik (public-key cryptography) pada tahun 1976 melalui makalah berjudul “New Directions in Cryptography”.
+  Penemuan ini menjadi dasar bagi sistem keamanan digital modern seperti SSL, PGP, dan berbagai sistem enkripsi di internet.
 - Pertanyaan 2:
-  RSA (Rivest–Shamir–Adleman)**
-    Digunakan untuk enkripsi dan tanda tangan digital.
-  
+  RSA (Rivest–Shamir–Adleman)\*\*
+  Digunakan untuk enkripsi dan tanda tangan digital.
   ECC (Elliptic Curve Cryptography)
-    Lebih efisien daripada RSA dengan ukuran kunci yang lebih kecil.
-  
+  Lebih efisien daripada RSA dengan ukuran kunci yang lebih kecil.
   Diffie–Hellman Key Exchange
-    Digunakan untuk pertukaran kunci rahasia secara aman.
-  
+  Digunakan untuk pertukaran kunci rahasia secara aman.
   ElGamal
-    Sering digunakan untuk enkripsi dan sistem tanda tangan digital.
+  Sering digunakan untuk enkripsi dan sistem tanda tangan digital.
   -Pertanyaan 3:
-  Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada metode           enkripsi, jenis kunci, dan dasar keamanannya.
-  Kriptografi klasik menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi          (bersifat simetris). Metode yang digunakan biasanya berupa substitusi atau transposisi huruf    pada teks alfabet. Keamanan sistem klasik ini relatif lemah karena dapat dipecahkan melalui     analisis frekuensi atau percobaan manual.
-  Sementara itu, kriptografi modern menggunakan dua kunci yang berbeda, yaitu kunci publik dan    kunci privat (bersifat asimetris). Sistem ini didasarkan pada teori matematika yang kompleks    seperti faktorisasi bilangan prima, logaritma diskret, dan kurva eliptik. Kriptografi modern    lebih aman dan digunakan untuk melindungi data digital dalam komunikasi dan transaksi           elektronik di era teknologi saat ini.
-)
+  Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada metode enkripsi, jenis kunci, dan dasar keamanannya.
+  Kriptografi klasik menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi (bersifat simetris). Metode yang digunakan biasanya berupa substitusi atau transposisi huruf pada teks alfabet. Keamanan sistem klasik ini relatif lemah karena dapat dipecahkan melalui analisis frekuensi atau percobaan manual.
+  Sementara itu, kriptografi modern menggunakan dua kunci yang berbeda, yaitu kunci publik dan kunci privat (bersifat asimetris). Sistem ini didasarkan pada teori matematika yang kompleks seperti faktorisasi bilangan prima, logaritma diskret, dan kurva eliptik. Kriptografi modern lebih aman dan digunakan untuk melindungi data digital dalam komunikasi dan transaksi elektronik di era teknologi saat ini.
+  )
+
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+
+(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan. )
 
 ---
 
 ## 9. Daftar Pustaka
+
 (Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+Contoh:
+
+- Katz, J., & Lindell, Y. _Introduction to Modern Cryptography_.
+- Stallings, W. _Cryptography and Network Security_. )
 
 ---
 
 ## 10. Commit Log
+
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
+
 ```
 commit abc12345
 Author: Nama Mahasiswa <email>
