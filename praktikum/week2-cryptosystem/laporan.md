@@ -8,7 +8,7 @@ Kelas: [Kelas]
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+(Tuliskan tujuan pembelajaran praktikum sesuai modul.
 
 ---
 
