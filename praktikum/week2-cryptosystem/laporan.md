@@ -122,7 +122,7 @@ Contoh algoritma:
 
 Hasil eksekusi program simple_crypto:
 
-![Hasil Eksekusi](screenshots/bukti.png)
+![Hasil Eksekusi](screenshots/hasil.png)
 
 ---
 
