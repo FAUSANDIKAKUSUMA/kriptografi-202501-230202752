@@ -38,19 +38,18 @@ Contoh format:
 ---
 
 ## 5. Source Code
+---
 # Aritmetika Modular
 def mod_add(a, b, n): return (a + b) % n
 def mod_sub(a, b, n): return (a - b) % n
 def mod_mul(a, b, n): return (a * b) % n
 def mod_exp(base, exp, n): return pow(base, exp, n)
 
-# GCD & Algoritma Euclidean
 def gcd(a, b):
     while b != 0:
         a, b = b, a % b
     return a
 
-# Extended Euclidean Algorithm & Invers Modular
 def egcd(a, b):
     if a == 0:
         return b, 0, 1
@@ -63,13 +62,12 @@ def modinv(a, n):
         return None  # Invers tidak ada jika gcd(a, n) != 1
     return x % n
 
-# Logaritma Diskrit (Brute-force sederhana)
 def discrete_log(a, b, n):
     for x in range(1, n):  # x dimulai dari 1
         if pow(a, x, n) == b:
             return x
     return None
-
+---
 # Pengujian
 print("--- Aritmetika Modular ---")
 print("7 + 5 mod 12 =", mod_add(7, 5, 12))
