@@ -13,6 +13,7 @@ Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
 2.Menerapkan algoritma Vigenère Cipher dengan variasi kunci.
 3.Mengimplementasikan algoritma Transposisi sederhana.
 4.Menjelaskan kelemahan dari algoritma kriptografi klasik.
+
 ---
 
 ## 2. Dasar Teori
@@ -116,7 +117,7 @@ print("Decrypted :", dec)
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
+![Hasil Eksekusi](screenshots/hasil.png)
 ![Hasil Input](screenshots/input.png)
 ![Hasil Output](screenshots/output.png)
 )
