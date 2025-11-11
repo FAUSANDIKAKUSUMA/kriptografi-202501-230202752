@@ -38,7 +38,6 @@ Contoh format:
 ---
 
 ## 5. Source Code
----
 # Aritmetika Modular
 def mod_add(a, b, n): return (a + b) % n
 def mod_sub(a, b, n): return (a - b) % n
@@ -67,7 +66,23 @@ def discrete_log(a, b, n):
         if pow(a, x, n) == b:
             return x
     return None
----
+
+# Pengujian
+if __name__ == "__main__":
+    print("--- Aritmetika Modular ---")
+    print("7 + 5 mod 12 =", mod_add(7, 5, 12))
+    print("7 * 5 mod 12 =", mod_mul(7, 5, 12))
+    print("7^128 mod 13 =", mod_exp(7, 128, 13))
+
+    print("\n--- GCD ---")
+    print("gcd(54, 24) =", gcd(54, 24))
+
+    print("\n--- Invers Modular ---")
+    print("Invers 3 mod 11 =", modinv(3, 11))
+
+    print("\n--- Logaritma Diskrit ---")
+    print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))
+
 # Pengujian
 print("--- Aritmetika Modular ---")
 print("7 + 5 mod 12 =", mod_add(7, 5, 12))
