@@ -156,9 +156,10 @@ Kurose, J. F., & Ross, K. W. (2021). Computer Networking: A Top-Down Approach.
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit c5237d905c4c476678409ba489feb66437697051 (HEAD -> main, origin/main, origin/HEAD)
+Author: FAUSANDIKAKUSUMA <fauzandikakusuma@gmail.com>
+Date:   Tue Nov 11 21:02:14 2025 +0700
+    week5-cipher-klasik
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week5-cryptosystem: implementasi Caesar Cipher dan laporan )
 ```
