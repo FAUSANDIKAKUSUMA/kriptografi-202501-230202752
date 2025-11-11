@@ -140,9 +140,9 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
-Author: Fausan Dika Kusuma <fauzandikakusuma@gmail.com>
-Date:   2025-09-20
+commit 4628c36028fb47788b9f173e9c31e3fa7eb8d17d (HEAD -> main, origin/main, origin/HEAD)
+Author: FAUSANDIKAKUSUMA <fauzandikakusuma@gmail.com>
+Date:   Tue Nov 11 17:22:00 2025 +0700
 
-    week3-modmath: implementasi Caesar Cipher dan laporan )
+    week3-modmath-gcd
 ```
