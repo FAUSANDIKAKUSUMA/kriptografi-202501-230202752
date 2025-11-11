@@ -41,40 +41,28 @@ Contoh format:
 ---
 
 ## 5. Source Code
+```python
+import math
 
-# Langkah 1 — Perhitungan Entropi
 def entropy(keyspace_size):
-    """Menghitung Entropi Kunci (H(K)) dalam bit."""
     return math.log2(keyspace_size)
 
-# Langkah 2 — Menghitung Unicity Distance
+print("Entropy ruang kunci 26 =", entropy(26), "bit")
+print("Entropy ruang kunci 2^128 =", entropy(2**128), "bit")
 def unicity_distance(HK, R=0.75, A=26):
-    """Menghitung Unicity Distance (U)."""
-    # math.log2(A) = math.log2(26) ≈ 4.70
     return HK / (R * math.log2(A))
 
-# Langkah 3 — Analisis Brute Force
-def brute_force_time(keyspace_size, attempts_per_second=1e6):
-    """Mengestimasi waktu brute force dalam hari."""
+HK = entropy(26)
+print("Unicity Distance untuk Caesar Cipher =", unicity_distance(HK))
+ef brute_force_time(keyspace_size, attempts_per_second=1e6):
     seconds = keyspace_size / attempts_per_second
-    days = seconds / (3600 * 24)
+    days = seconds / (3600*24)
     return days
 
-# Pengujian
-keyspace_caesar = 26
-keyspace_aes128 = 2**128
+print("Waktu brute force Caesar Cipher (26 kunci) =", brute_force_time(26), "hari")
+print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
+```
 
-HK_caesar = entropy(keyspace_caesar)
-HK_aes128 = entropy(keyspace_aes128)
-
-print("--- Caesar Cipher (Keyspace = 26) ---")
-print(f"Entropy H(K) = {HK_caesar:.2f} bit")
-print(f"Unicity Distance U = {unicity_distance(HK_caesar):.2f} karakter")
-print(f"Waktu Brute Force (1M/detik) = {brute_force_time(keyspace_caesar):.8f} hari")
-
-print("\n--- AES-128 (Keyspace = 2^128) ---")
-print(f"Entropy H(K) = {HK_aes128:.0f} bit")
-print(f"Waktu Brute Force (1M/detik) = {brute_force_time(keyspace_aes128):.2f} hari")
 ---
 
 ## 6. Hasil dan Pembahasan
