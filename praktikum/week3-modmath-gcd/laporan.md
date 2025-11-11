@@ -108,7 +108,7 @@ print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
+![Hasil Eksekusi](screenshots/hasil.png)
 ![Hasil Input](screenshots/input.png)
 ![Hasil Output](screenshots/output.png)
 )
