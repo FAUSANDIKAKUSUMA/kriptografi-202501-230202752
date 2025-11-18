@@ -1,28 +1,35 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 7 
+Topik: Diffie-Hellman Key Exchange 
+Nama: Fausan Dika Kusuma
+NIM: 230202752 
+Kelas: 5IKRB  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Melakukan simulasi protokol Diffie-Hellman untuk pertukaran kunci publik.    
+2. Menjelaskan mekanisme pembangkitan kunci bersama menggunakan bilangan prima dan logaritma diskrit.   
+3. Menganalisis potensi serangan terhadap Diffie-Hellman, khususnya serangan Man-in-the-Middle (MITM).  
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Diffie-Hellman Key Exchange adalah protokol kriptografi yang memungkinkan dua pihak bertukar kunci rahasia melalui saluran publik tanpa harus mengirimkan kunci tersebut secara langsung. Protokol ini bekerja menggunakan operasi eksponensial modulo bilangan prima dan mengandalkan kesulitan masalah Discrete Logarithm Problem (DLP), yaitu sulitnya menghitung nilai logaritma diskrit dari suatu bilangan pada modulo tertentu.  
+
+Dalam protokol ini, dua parameter publik digunakan yaitu bilangan prima 𝑝
+p dan generator 𝑔 g. Setiap pihak memilih kunci privat secara acak, lalu menghitung kunci publik menggunakan operasi modp dan bertukar kunci publik tersebut. Kunci rahasia bersama diperoleh dari hasil perhitungan kembali menggunakan kunci privat masing-masing.    
+
+Walaupun aman secara matematis, Diffie-Hellman rentan terhadap serangan Man-in-the-Middle, yaitu ketika pihak ketiga mencegat dan mengganti kunci publik sehingga dua pihak yang berkomunikasi tidak menyadari bahwa kunci rahasianya telah diketahui pihak lain. Karena itu, protokol ini biasanya dipadukan dengan autentikasi tambahan.  
 
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+Python 3.11 atau lebih baru 
+Visual Studio Code atau editor lain 
+Git dan akun GitHub 
+Folder praktikum week7-diffie-hellman   
+Library standar Python (tanpa library tambahan) 
 
 ---
 
@@ -64,22 +71,28 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+1. Mengapa Diffie-Hellman memungkinkan pertukaran kunci di saluran publik?  
+Karena kedua pihak hanya bertukar nilai publik hasil operasi eksponensial modulo prima, bukan kunci privat. Nilai publik tersebut tidak dapat digunakan untuk menemukan kunci privat akibat sulitnya menyelesaikan Discrete Logarithm Problem.  
+
+2. Apa kelemahan utama protokol Diffie-Hellman murni?   
+Protokol ini tidak memiliki autentikasi, sehingga rawan serangan MITM. Penyerang dapat mengganti public key dan membuat dua kunci berbeda tanpa terdeteksi. 
+
+3. Bagaimana cara mencegah serangan MITM?   
+Dengan menambahkan autentikasi seperti sertifikat digital (PKI), tanda tangan digital, atau menggunakan versi yang lebih aman seperti Authenticated Diffie-Hellman (misalnya dalam TLS/SSL).    
+
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Pada percobaan ini, protokol Diffie-Hellman berhasil digunakan untuk menghasilkan kunci rahasia bersama. Namun, simulasi MITM membuktikan bahwa Diffie-Hellman tanpa autentikasi sangat rentan disusupi. Oleh karena itu, mekanisme autentikasi wajib digunakan untuk menjaga keamanan komunikasi.  
 
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+Paar, C., & Pelzl, J. (2010). Understanding Cryptography: A Textbook for Students and Practitioners. Springer.  
+
+Menezes, A. J., van Oorschot, P., & Vanstone, S. (1996). Handbook of Applied Cryptography. CRC Press.   
+
+Boneh, D. (1999). The Decision Diffie–Hellman Problem. Algorithmic Number Theory Symposium (ANTS).  
 
 ---
 
