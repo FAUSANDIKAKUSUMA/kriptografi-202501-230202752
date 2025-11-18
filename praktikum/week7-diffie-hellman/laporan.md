@@ -43,15 +43,31 @@ Contoh format:
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
 
 ```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
+import random
+
+# parameter umum (disepakati publik)
+p = 23  # bilangan prima
+g = 5   # generator
+
+# private key masing-masing pihak
+a = random.randint(1, p-1)  # secret Alice
+b = random.randint(1, p-1)  # secret Bob
+
+# public key
+A = pow(g, a, p)
+B = pow(g, b, p)
+
+# exchange public key
+shared_secret_A = pow(B, a, p)
+shared_secret_B = pow(A, b, p)
+
+print("Kunci bersama Alice :", shared_secret_A)
+print("Kunci bersama Bob   :", shared_secret_B)
+
 ```
-)
+
 
 ---
 
@@ -97,12 +113,10 @@ Boneh, D. (1999). The Decision Diffie–Hellman Problem. Algorithmic Number Theo
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit 57299de72959e169d30532f43ebbacf177eadf28     
+Author: FAUSANDIKAKUSUMA <fauzandikakusuma@gmail.com>   
+Date:   Tue Nov 18 12:41:57 2025 +0700  
 
-    week7-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week7-diffie-hellman
+    week7-cryptosystem: implementasi Caesar Cipher dan laporan 
 ```
