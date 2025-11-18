@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 6 
-Topik: Cipher Modern (DES, AES, RSA)
-Nama: Fausan Dika Kusuma  
-NIM: 230202752 
-Kelas: 5IKRB 
+Minggu ke-: 6   
+Topik: Cipher Modern (DES, AES, RSA)    
+Nama: Fausan Dika Kusuma     
+NIM: 230202752   
+Kelas: 5IKRB    
 
 ---
 
