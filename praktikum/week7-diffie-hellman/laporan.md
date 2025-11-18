@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 7 
-Topik: Diffie-Hellman Key Exchange 
-Nama: Fausan Dika Kusuma
-NIM: 230202752 
-Kelas: 5IKRB  
+Minggu ke-: 7    
+Topik: Diffie-Hellman Key Exchange   
+Nama: Fausan Dika Kusuma    
+NIM: 230202752   
+Kelas: 5IKR   
 
 ---
 
@@ -25,11 +25,11 @@ Walaupun aman secara matematis, Diffie-Hellman rentan terhadap serangan Man-in-t
 ---
 
 ## 3. Alat dan Bahan
-Python 3.11 atau lebih baru 
-Visual Studio Code atau editor lain 
-Git dan akun GitHub 
-Folder praktikum week7-diffie-hellman   
-Library standar Python (tanpa library tambahan) 
+Python 3.11 atau lebih baru  
+Visual Studio Code atau editor lain  
+Git dan akun GitHub  
+Folder praktikum week7-diffie-hellman      
+Library standar Python (tanpa library tambahan)  
 
 ---
 
